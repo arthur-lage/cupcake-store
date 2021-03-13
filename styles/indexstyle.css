@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(rgba(250, 146, 168, 0.733), rgba(240, 111, 139, 0.733));
+}
+
+#order-link{
+    color: white;
+    font-family: "Poppins";
+    margin-top: 10px;
+    margin-left: 225px;
+    font-size: 1.20rem;
+    height: 100%;
+}
+
+#order-link img{
+    width: 10%;
+    margin-left: 65px;
+}
+
+nav .nav-links{
+    position: absolute;
+    right: 0;
+}
+
+#logo-link{
+    text-decoration: none;
+    color: #fffbfb;
+    font-family: "Poppins";
+    font-size: 2rem;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+}
+
+.nav-links ul{
+    display: flex;
+    max-width: 600px;
+    height: 80px;
+    width: 100%;
+}
+
+.nav-links a, .nav-links li{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-align: center;
+
+}
+
+.nav-links a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 27.5px 30px 0 30px;
+    transition: 0.3s ease-out;
+    color: white;
+}
+
+.nav-links li{
+    margin: 0 0rem;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease-out;
+}
+
+#home-link:hover{
+    background: hsla(236, 57%, 54%, 0.733);
+}
+
+
+#contact-link:hover{
+    background: hsla(350, 100%, 66%, 0.733);
+}
+
+#about-link:hover{
+    background: hsla(17, 32%, 28%, 0.733);
+}
+
+footer{
+    background-color: #fff;
+    font-family: "Poppins";
+    color: black;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+}
+
+.text-block-1{
+    display: flex;
+    align-items: center;
+}
+
+.text-block-1 .text{
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.text-block-1 .text p{
+    font-family: "Poppins";
+    font-size: 1.25rem;
+}
+
+.text-block-1 img{
+    width: 500px;
+    margin: 25px 0 25px 25px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.808);
+}
+
+.text-block-2{
+    display: flex;
+    background: #ff516e;
+    align-items: center;
+}
+
+.text-block-2 .text{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    margin-left: 125px;
+}
+
+.text-block-2 .text p{
+    font-family: "Poppins";
+    font-size: 1.25rem;
+}
+
+.text-block-2 img{
+    width: 500px;
+    margin: 25px 0 25px 25px;
+    border-radius: 5px;
+    box-shadow: -3px 3px 15px rgba(0, 0, 0, 0.808);
+}
+
+.text-block-3{
+    display: flex;
+    background: #4750cc;
+    align-items: center;
+}
+
+.text-block-3 .text{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    margin-left: 50px;
+}
+
+.text-block-3 .text p{
+    font-family: "Poppins";
+    font-size: 1.25rem;
+}
+
+.text-block-3 img{
+    width: 500px;
+    margin: 25px 0 25px 145px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.808);
+}
+
+.text-block-4{
+    display: flex;
+    background: #5e3d30;
+    align-items: center;
+}
+
+.text-block-4 .text{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    margin-left: 125px;
+}
+
+.text-block-4 .text p{
+    font-family: "Poppins";
+    font-size: 1.25rem;
+}
+
+.text-block-4 img{
+    width: 500px;
+    margin: 25px 0 25px 25px;
+    border-radius: 5px;
+    box-shadow: -3px 3px 15px rgba(0, 0, 0, 0.808);
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+
+  }
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+
+::-webkit-scrollbar-thumb {
+    background: #392388;
+    border-radius: 10px;
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(18, 8, 59);
+    border-radius: 10px;
+  }
