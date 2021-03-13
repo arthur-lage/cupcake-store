@@ -74,16 +74,16 @@ nav .nav-links{
 }
 
 #home-link:hover{
-    background: hsla(236, 57%, 54%, 0.733);
+    background: #4750cdbb;
 }
 
 
 #contact-link:hover{
-    background: hsla(350, 100%, 66%, 0.733);
+    background: #ff526fbb;
 }
 
 #about-link:hover{
-    background: hsla(17, 32%, 28%, 0.733);
+    background: #5e3d31bb;
 }
 
 footer{

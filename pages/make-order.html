@@ -39,11 +39,11 @@
 
                 <div class="adress">
                     <label for="adress">Endereço: </label>
-                    <br>
                     <input required type="text" name="adress" id="adress">
                 </div>
 
                 <div id="cupcake-menu">
+                    <label for="cupcake-type">Escola o tipo de Cupcake</label>
                     <select required name="cupcake-type" id="cupcake-type">
                         <option selected disabled value="">Escolha um Cupcake</option>
                         <option value="cenoura">Cupcake de Cenoura</option>
@@ -73,18 +73,19 @@
 
                 <div class="custom">
                     <p>Gostaria de um Cupcake especial?</p>
-                    <input type="checkbox" name="custom-cupcake" id="churros">
+                    <br>
+                    <input type="radio" name="custom-cupcake" id="churros">
                     <label for="churros">Churros</label>
-                    <input type="checkbox" name="custom-cupcake" id="nutella">
+                    <input type="radio" name="custom-cupcake" id="nutella">
                     <label for="nutella">Nutella</label>
-                    <input type="checkbox" name="custom-cupcake" id="baunilhachocolate">
+                    <input type="radio" name="custom-cupcake" id="baunilhachocolate">
                     <label for="baunilhachocolate">Baunilha com Chocolate</label>
                     <br>
-                    <input type="checkbox" name="custom-cupcake" id="cocochocolate">
+                    <input type="radio" name="custom-cupcake" id="cocochocolate">
                     <label for="cocochocolate">Coco com Chocolate</label>
-                    <input type="checkbox" name="custom-cupcake" id="brigadeiro">
+                    <input type="radio" name="custom-cupcake" id="brigadeiro">
                     <label for="brigadeiro">Brigadeiro</label>
-                    <input type="checkbox" name="custom-cupcake" id="leitecondensado">
+                    <input type="radio" name="custom-cupcake" id="leitecondensado">
                     <label for="leitecondensado">Leite Condensado</label>
                 </div>
 
@@ -99,9 +100,9 @@
 
                 <hr>
 
-
-
-                <input type="submit" value="Fazer Pedido">
+                <div class="submit-button">
+                    <input class="submit-button-style" id="submit" type="submit" value="Fazer Pedido">
+                </div>
             </form>
         </section>
     </main>
