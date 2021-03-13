@@ -37,13 +37,15 @@
         <section id="cupcake-section">
             <form id="form" action="">
 
-                <div class="adress">
-                    <label for="adress">Endereço: </label>
-                    <input required type="text" name="adress" id="adress">
-                </div>
+                <div class="address">
+                    <label for="address">Endereço: </label>
+                    <input required type="text"  placeholder="Digite seu endereço aqui: " name="adress" id="adress">
+                </div>            
+                
+                <hr>
 
                 <div id="cupcake-menu">
-                    <label for="cupcake-type">Escola o tipo de Cupcake</label>
+                    <label for="cupcake-type">Escolha o tipo de Cupcake: </label>
                     <select required name="cupcake-type" id="cupcake-type">
                         <option selected disabled value="">Escolha um Cupcake</option>
                         <option value="cenoura">Cupcake de Cenoura</option>
@@ -56,11 +58,15 @@
                     </select>
     
                     <br>
+                    <hr>
     
                     <label for="cupcakes-quantity">Quantidade: </label>
-                    <input required value="1" min="1" max="10" type="number" name="cupcakes-quantity" id="cupcakes-quantity">
+                    <input required value="1" min="1" max="50" type="number" name="cupcakes-quantity" id="cupcakes-quantity">
                     
+                    <hr>
+
                     <div class="sizes">
+                        <label for="cupcake-size">Tamanho dos Cupcakes: </label>
                         <input type="radio" name="cupcake-size" value="mini" id="mini">
                         <label for="mini">Mini</label>
                         <input checked type="radio" value="regular" name="cupcake-size" id="regular">
@@ -71,8 +77,14 @@
     
                 </div>
 
+                <hr>
+
                 <div class="custom">
+
                     <p>Gostaria de um Cupcake especial?</p>
+                    <br>
+                    <input checked type="radio" name="custom-cupcake" id="none">
+                    <label for="none">Sem Cupcake especial</label>
                     <br>
                     <input type="radio" name="custom-cupcake" id="churros">
                     <label for="churros">Churros</label>
@@ -80,7 +92,6 @@
                     <label for="nutella">Nutella</label>
                     <input type="radio" name="custom-cupcake" id="baunilhachocolate">
                     <label for="baunilhachocolate">Baunilha com Chocolate</label>
-                    <br>
                     <input type="radio" name="custom-cupcake" id="cocochocolate">
                     <label for="cocochocolate">Coco com Chocolate</label>
                     <input type="radio" name="custom-cupcake" id="brigadeiro">
@@ -89,7 +100,10 @@
                     <label for="leitecondensado">Leite Condensado</label>
                 </div>
 
+                <hr>
+
                 <div class="cupcake-case-div">
+                    <label for="cupcake-case">Forminha: </label>
                     <select required name="cupcake-case" id="cupcake-case">
                         <option selected disabled value="">Escolha uma Forminha</option>
                         <option value="case-bolinhas">Forma com Bolinhas</option>
