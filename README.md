@@ -14,13 +14,19 @@ The main page.
 
 ## Contact
 
+Page with important information, like telephone number and email.
+
 ![Imagem](https://github.com/arthur-lage/cupcake-store/blob/main/assets/contact.png)
 
 ## About
 
+The page which tells about Amora's life. Amora is a fictional character.
+
 ![Imagem](https://github.com/arthur-lage/cupcake-store/blob/main/assets/about.png)
 
 ## Make an order
+
+The page you will use for making a order.
 
 ![Imagem](https://github.com/arthur-lage/cupcake-store/blob/main/assets/order.png)
 
