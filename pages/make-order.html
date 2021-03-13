@@ -29,6 +29,84 @@
         </div>
     </nav>
 
+    <main>
+        <h1>Fazer um Pedido</h1>
+
+        <hr>
+
+        <section id="cupcake-section">
+            <form id="form" action="">
+
+                <div class="adress">
+                    <label for="adress">Endereço: </label>
+                    <br>
+                    <input required type="text" name="adress" id="adress">
+                </div>
+
+                <div id="cupcake-menu">
+                    <select required name="cupcake-type" id="cupcake-type">
+                        <option selected disabled value="">Escolha um Cupcake</option>
+                        <option value="cenoura">Cupcake de Cenoura</option>
+                        <option value="morangochantily">Cupcake de Morango com Chantily</option>
+                        <option value="iogurtemorango">Cupcake de Iogurte com Morango</option>
+                        <option value="morango">Cupcake de Morango</option>
+                        <option value="laranja">Cupcake de Laranja</option>
+                        <option value="baunilha">Cupcake de Baunilha</option>
+                        <option value="framboesa">Cupcake de Franboesa</option>
+                    </select>
+    
+                    <br>
+    
+                    <label for="cupcakes-quantity">Quantidade: </label>
+                    <input required value="1" min="1" max="10" type="number" name="cupcakes-quantity" id="cupcakes-quantity">
+                    
+                    <div class="sizes">
+                        <input type="radio" name="cupcake-size" value="mini" id="mini">
+                        <label for="mini">Mini</label>
+                        <input checked type="radio" value="regular" name="cupcake-size" id="regular">
+                        <label for="regular">Regular</label>
+                        <input type="radio" value="jumbo" name="cupcake-size" id="jumbo">
+                        <label for="jumbo">Jumbo</label>
+                    </div>
+    
+                </div>
+
+                <div class="custom">
+                    <p>Gostaria de um Cupcake especial?</p>
+                    <input type="checkbox" name="custom-cupcake" id="churros">
+                    <label for="churros">Churros</label>
+                    <input type="checkbox" name="custom-cupcake" id="nutella">
+                    <label for="nutella">Nutella</label>
+                    <input type="checkbox" name="custom-cupcake" id="baunilhachocolate">
+                    <label for="baunilhachocolate">Baunilha com Chocolate</label>
+                    <br>
+                    <input type="checkbox" name="custom-cupcake" id="cocochocolate">
+                    <label for="cocochocolate">Coco com Chocolate</label>
+                    <input type="checkbox" name="custom-cupcake" id="brigadeiro">
+                    <label for="brigadeiro">Brigadeiro</label>
+                    <input type="checkbox" name="custom-cupcake" id="leitecondensado">
+                    <label for="leitecondensado">Leite Condensado</label>
+                </div>
+
+                <div class="cupcake-case-div">
+                    <select required name="cupcake-case" id="cupcake-case">
+                        <option selected disabled value="">Escolha uma Forminha</option>
+                        <option value="case-bolinhas">Forma com Bolinhas</option>
+                        <option value="case-listras">Forma com Listras</option>
+                        <option value="case-zig-zag">Forma com Zig-Zag</option>
+                    </select>
+                </div>
+
+                <hr>
+
+
+
+                <input type="submit" value="Fazer Pedido">
+            </form>
+        </section>
+    </main>
+
+
     <footer>
         &copy;Arthur Lage
     </footer>
