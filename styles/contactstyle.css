@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('../images/cupcakes4.jpg') no-repeat;
+    height: 100vh;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
 nav{
     box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
     display: flex;
@@ -16,14 +23,14 @@ nav{
     color: white;
     font-family: "Poppins";
     margin-top: 10px;
-    margin-left: 225px;
+    margin-left: 255px;
     font-size: 1.20rem;
     height: 100%;
 }
 
 #order-link img{
     width: 10%;
-    margin-left: 65px;
+    margin-left: 60px;
 }
 
 nav .nav-links{
@@ -34,8 +41,9 @@ nav .nav-links{
 #logo-link{
     text-decoration: none;
     color: #fffbfb;
-    font-family: "Poppins";
-    font-size: 2rem;
+    font-family: "Dancing Script";
+    text-shadow: 2px 2px 6px black;
+    font-size: 2.5rem;
     padding: 1rem 1.5rem;
     font-weight: 600;
 }
@@ -98,10 +106,38 @@ footer{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
 }
 
+main{
+    text-align: center;
+    color: white;
+    font-family: "Poppins";
+}
+
+main h1{
+    font-family: "Dancing Script";
+    font-size: 4rem;
+    margin-top: 2.5rem;
+}
+
+main p{
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+}
+
+main img{
+    width: 95px;
+    height: 95px;
+    cursor: pointer;
+}
+
+main h2{
+    margin: 1.5rem 0;
+    border: 2px solid #5039d1;
+    background-color: #11107a8c;
+    padding: 5px;
+}
 
 ::-webkit-scrollbar {
     width: 10px;
-
   }
   
 ::-webkit-scrollbar-track {
